@@ -10,3 +10,6 @@ wynik2 = funkcja(10)
 print(wynik2)
 wynik3 = funkcja(1)
 print(wynik3)
+wynik4 = funkcja(23)
+print(wynik4)
+
