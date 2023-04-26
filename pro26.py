@@ -13,3 +13,11 @@ print(wynik3)
 wynik4 = funkcja(23)
 print(wynik4)
 
+def potega(liczba= 2, wykladnik=3):
+    if wykladnik == 0:
+        return 1
+    else:
+        return liczba * potega(liczba, wykladnik -1)
+
+wynik = potega()
+print(wynik)
